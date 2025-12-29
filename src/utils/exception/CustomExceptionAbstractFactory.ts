@@ -3,7 +3,7 @@ import CustomException from './CustomException';
 import Exception from './Exception';
 import { ResponseException } from './ResponseException';
 import { ExceptionCategory } from '../constants/ExceptionCategory';
-import { NODE_ENV } from '../../context/shared/infrastructure/configuration/EnvironmentAccesor';
+import { NODE_ENV } from '../../context/shared/infrastructure/configuration/EnvironmentAccessor';
 
 export abstract class CustomExceptionAbstractFactory
   extends HttpException
